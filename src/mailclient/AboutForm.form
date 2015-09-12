@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Gi&#x1edb;i thi&#x1ec7;u"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jScrollPane2" pref="421" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="85" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Courier New" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OFEN Mail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/icon/mailm.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="13" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="OFEN Mail l&#xe0; m&#x1ed9;t &#x1ee9;ng d&#x1ee5;ng mail client cho ph&#xe9;p ng&#x1b0;&#x1edd;i d&#xf9;ng &#xa;g&#x1eed;i v&#xe0; nh&#x1ead;n mail th&#xf4;ng qua c&#xe1;c giao th&#x1ee9;c SMTP (g&#x1eed;i mail) &#xa;v&#xe0; POP3/IMAP(nh&#x1ead;n mail). Ngo&#xe0;i ra, OFEN Mail c&#xf2;n c&#xf3; kh&#x1ea3; n&#x103;ng &#xa;m&#xe3; h&#xf3;a th&#x1b0; g&#x1eed;i v&#xe0; gi&#x1ea3; m&#xe3; th&#x1b0; &#x111;&#x1ebf;n. OFEN Mail c&#xf3; th&#x1ec3; ho&#x1ea1;t &#x111;&#x1ed9;ng&#xa;offline khi kh&#xf4;ng c&#xf3; k&#x1ebf;t n&#x1ed1;i internet &#x111;&#x1ec3; &#x111;&#x1ecd;c c&#xe1;c mail &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c t&#x1ea3;i&#xa;v&#x1ec1; t&#x1eeb; tr&#x1b0;&#x1edb;c.&#xa;Ph&#x1ea7;n m&#x1ec1;m &#x111;&#x1b0;&#x1ee3;c vi&#x1ebf;t b&#x1edf;i: &#x9;Nguy&#x1ec5;n Ph&#xfa;c Th&#xe0;nh H&#x1b0;ng 12520603&#xa;&#x9;&#x9;Hu&#x1ef3;nh Th&#x1ebf; Vinh               12520507&#x9;&#xa;&#x9;&#x9;&#x110;&#xe0;o T&#x1ed1; V&#x1b0;&#x1a1;ng&#x9;                12520518&#xa;&#x9;&#x9;V&#x169; Ng&#x1ecd;c To&#xe0;n                  12520448&#xa;d&#x1b0;&#x1edb;i s&#x1ef1; h&#x1b0;&#x1edb;ng d&#x1eab;n c&#x1ee7;a gi&#x1ea3;ng vi&#xea;n: Th.S &#xa;Ph&#x1ea7;n m&#x1ec1;m v&#x1eab;n c&#xf2;n thi&#x1ebf;u s&#xf3;t, m&#x1ecd;i &#xfd; ki&#x1ebf;n &#x111;&#xf3;ng g&#xf3;p b&#x1ed5; xung&#xa; xin li&#xea;n h&#x1ec7;: thanhhung94@gmail.com&#xa;&#x9;&#x9;&#x9;&#xa;&#x9;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Version 0.1 Beta"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
